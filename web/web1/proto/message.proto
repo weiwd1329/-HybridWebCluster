@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message Message{
+    optional int64 userid = 1;
+    optional int32 msgid  = 2;
+    optional bytes string = 3;
+}
